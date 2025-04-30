@@ -69,9 +69,6 @@ namespace Autowithdraw
                     if (!Settings.Config.Telegram.Allowed.Contains(QueryID))
                         return;
 
-
-                 
-
                     #region Earn
 
                     else if (QueryData.Contains("💰 Earned"))
